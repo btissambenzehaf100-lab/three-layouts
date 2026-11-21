@@ -51,6 +51,126 @@ body {
     background-color: #f3f4f6;
 }
 
+
+.card-grid-body {
+    background-color: #f3f4f6;
+
+}
+
+.card-grid-title {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.card-grid {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.card-background1 {
+    height: 170px;
+    background-color: #cfe3da;
+    border-radius: 20px 20px 0px 0px;
+    border-color: #e5e7eb;
+    width: 400px;
+}
+
+.card-content1 {
+    border-color: #e5e7eb;
+    border-radius: 0px 0px 20px 20px;
+    border-width: 50px;
+    background-color: white;
+    margin: 0px;
+    padding: 20px;
+    width: 360px;
+   
+
+}
+
+.card1-h3 {
+    color: #1f2937;
+}
+
+.card1-p {
+    color: #6b7280;
+    font-size: 1rem;
+}
+.card1{
+    max-width: 400px;
+}
+
+.card2{
+    max-width: 400px;
+}
+
+.card3{
+    max-width: 400px;
+}
+.card-background2 {
+    height: 170px;
+    background-color: #f6e3bf;
+    border-radius: 20px 20px 0px 0px;
+    border-color: #e5e7eb;
+  
+
+}
+
+.card-content2 {
+    border-color: #e5e7eb;
+    border-radius: 0px 0px 20px 20px;
+    border-width: 50px;
+    background-color: white;
+    margin: 0px;
+    padding: 20px;
+}
+
+.card2-h3 {
+    color: #1f2937;
+}
+
+.card2-p {
+    color: #6b7280;
+    font-size: 1rem;
+}
+
+
+.card-background3 {
+    height: 170px;
+    background-color: #d9d6ee;
+    border-radius: 20px 20px 0px 0px;
+    border-color: #e5e7eb;
+  
+}
+
+.card-content3 {
+    border-color: #e5e7eb;
+    border-radius: 0px 0px 20px 20px;
+    border-width: 50px;
+    background-color: white;
+    margin: 0px;
+    padding: 20px;
+
+}
+
+.card3-h3 {
+    color: #1f2937;
+}
+
+.card3-p {
+    color: #6b7280;
+    font-size: 1rem;
+}
+
+.card-grid a{
+    color: #2f5d50;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
 @media (max-width:375) {
     .child2 a {
         display: flex;
