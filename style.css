@@ -70,13 +70,13 @@ body {
     }
 
     .child2 button {
-       grid-column: span 2;
+        grid-column: span 2;
 
     }
 }
 
-@media (max-width:375px){
-        .container {
+@media (max-width:375px) {
+    .container {
         display: grid;
         grid-template-columns: 1fr;
 
@@ -119,8 +119,8 @@ body {
     justify-content: center;
     padding: 20px;
     gap: 20px;
-   
-    
+
+
 }
 
 .card-background1 {
@@ -128,7 +128,7 @@ body {
     background-color: #cfe3da;
     border-radius: 20px 20px 0px 0px;
     border-color: #e5e7eb;
-   
+
 }
 
 .card-content1 {
@@ -137,8 +137,8 @@ body {
     border-width: 50px;
     background-color: white;
     margin: 0px;
-    padding: 20px ;
-   
+    padding: 20px;
+
 
 
 }
@@ -225,11 +225,217 @@ body {
     font-weight: bold;
 }
 
-@media (max-width: 768px){
-    .card-grid{
+@media (max-width: 768px) {
+    .card-grid {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 20px;
     }
+}
+
+/*pricing table*/
+
+.pricing-table-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.pricing-tables {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 40px 50px;
+    align-items: center;
+}
+
+.pricing-table-h2 {
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+.pricing-table-p {
+    font-size: 1rem;
+    color: #6b7280;
+    align-self: center;
+    margin: 10px;
+}
+
+.basic {
+    background-color: white;
+    border-width: 1px;
+    border-color: #e5e7eb;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.basic-h4 {
+    font-weight: bolder;
+    color: #1f2937;
+    font-size: 1rem;
+}
+
+.basic-p {
+    font-size: 1rem;
+    color: #6b7280;
+    margin: 10px;
+}
+
+.basic-table {
+    color: #6b7280;
+    list-style: none;
+    padding: 0px;
+
+}
+
+.basic-table li {
+    border-bottom: #e5e7eb;
+    border-bottom: 0.5px solid;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.basic-button {
+    background-color: white;
+    border-style: solid;
+    border-color: #2f5d50;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 10px 100px;
+    font-weight: bold;
+    color: #2f5d50;
+    margin-top: auto;
+}
+
+.team {
+    background-color: white;
+    border-width: 1px;
+    border-color: #e5e7eb;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.team-h4 {
+    font-weight: bolder;
+    color: #1f2937;
+    font-size: 1rem;
+}
+
+.team-p {
+    font-size: 1rem;
+    color: #6b7280;
+    margin: 10px;
+}
+
+.team-table {
+    color: #6b7280;
+    list-style: none;
+    padding: 0px;
+}
+
+.team-table li {
+    border-bottom: #e5e7eb;
+    border-bottom: 0.5px solid;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.team-button {
+    background-color: white;
+    border-style: solid;
+    border-color: #2f5d50;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 10px 100px;
+    font-weight: bold;
+    color: #2f5d50;
+    margin-top: auto;
+}
+
+.basic-p span,
+.team-p span {
+    font-size: 40px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.most-popular {
+    background-color: #2f5d50;
+    border-width: 1px;
+    border-color: #2f5d50;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-15px);
+    box-shadow: 1px 4px 12px #2f5d50;
+    position: relative;
+}
+
+.most-popular-h4 {
+    font-weight: bolder;
+    color: white;
+    font-size: 1rem;
+}
+
+.most-popular-p {
+    font-size: 1rem;
+    color: #e5e7eb;
+    margin: 10px;
+}
+
+.most-popular-p span {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.most-popular li {
+    border-bottom: #e5e7eb;
+    border-bottom: 0.5px solid;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.most-popular-table {
+    color: #e5e7eb;
+    list-style: none;
+    padding: 0px;
+}
+
+.most-popular-button {
+    background-color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 5px;
+    padding: 10px 100px;
+    font-weight: bold;
+    color: #2f5d50;
+    margin-top: auto;
+}
+
+.most-popular-span {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #e8a33d;
+    color: #1f2937;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
 }
